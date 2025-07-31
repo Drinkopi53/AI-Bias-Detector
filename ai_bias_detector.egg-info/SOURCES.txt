@@ -1,0 +1,13 @@
+README.md
+setup.py
+ai_bias_detector/__init__.py
+ai_bias_detector/dataset_analyzer.py
+ai_bias_detector/mitigation.py
+ai_bias_detector/model_analyzer.py
+ai_bias_detector.egg-info/PKG-INFO
+ai_bias_detector.egg-info/SOURCES.txt
+ai_bias_detector.egg-info/dependency_links.txt
+ai_bias_detector.egg-info/requires.txt
+ai_bias_detector.egg-info/top_level.txt
+tests/test_dataset_analyzer.py
+tests/test_model_analyzer.py

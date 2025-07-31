@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: ai_bias_detector
+Version: 0.1.0
+Summary: A Python library to detect bias in AI models and datasets.
+Home-page: https://github.com/user/ai-bias-detector
+Author: Jules
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # AI Bias Detector
 
 **AI Bias Detector** adalah pustaka Python yang dirancang untuk membantu ilmuwan data, insinyur ML, dan peneliti mengidentifikasi dan memahami potensi bias dalam dataset dan model machine learning mereka. Dengan fokus pada bias yang terkait dengan atribut sensitif seperti gender, ras, dan usia, pustaka ini menyediakan alat untuk analisis dan rekomendasi mitigasi.

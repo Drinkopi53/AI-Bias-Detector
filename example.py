@@ -1,29 +1,3 @@
-# AI Bias Detector
-
-**AI Bias Detector** adalah pustaka Python yang dirancang untuk membantu ilmuwan data, insinyur ML, dan peneliti mengidentifikasi dan memahami potensi bias dalam dataset dan model machine learning mereka. Dengan fokus pada bias yang terkait dengan atribut sensitif seperti gender, ras, dan usia, pustaka ini menyediakan alat untuk analisis dan rekomendasi mitigasi.
-
-Proyek ini dikembangkan berdasarkan [Dokumen Persyaratan Produk (PRD) untuk MVP](./PRD-MVP.md).
-
-## Fitur Utama (MVP)
-
-- **Analisis Bias Dataset**: Menganalisis distribusi atribut sensitif dalam dataset (menggunakan Pandas DataFrame) untuk mengidentifikasi ketidakseimbangan representasi.
-- **Analisis Bias Model**: Mengevaluasi kinerja model yang kompatibel dengan Scikit-learn di berbagai subkelompok demografis untuk mendeteksi disparitas dalam metrik seperti akurasi, presisi, dan perolehan.
-- **Rekomendasi Mitigasi**: Memberikan saran yang dapat ditindaklanjuti berdasarkan temuan analisis, seperti teknik penyeimbangan ulang data atau pertimbangan untuk keadilan algoritmik.
-
-## Instalasi
-
-1.  Clone repositori ini ke mesin lokal Anda.
-2.  Instal dependensi yang diperlukan menggunakan `pip`:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Cara Penggunaan
-
-Berikut adalah contoh cepat tentang cara menggunakan pustaka untuk menganalisis dataset dan model.
-
-```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -88,19 +62,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-### Menjalankan Contoh
-
-Untuk menjalankan skrip contoh dan melihat outputnya:
-
-```bash
-python example.py
-```
-
-## Langkah Selanjutnya
-
-- Pengembangan modul koreksi bias otomatis.
-- Integrasi dengan kerangka kerja ML lain seperti TensorFlow dan PyTorch.
-- Perluasan untuk mencakup jenis bias tambahan.
-- Pengembangan alat visualisasi untuk analisis.
